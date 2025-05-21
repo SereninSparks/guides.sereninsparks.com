@@ -55,6 +55,7 @@ jobs:
         with:
           name: site
           path: _site
+
   # Now we can deploy the site to GitHub Pages!
   deploy:
     runs-on: ubuntu-latest
@@ -65,7 +66,11 @@ jobs:
         with:
           ref: 'gh-pages' # Checkout the gh-pages branch
 
-      # (optional) Remove any old files from the gh-pages branch
+      # Backup the CNAME file, if it exists
+      - name: Backup CNAME
+        run: '[ -f ./CNAME ] && cp ./CNAME ${{ runner.temp }}/CNAME'
+
+      # Remove any old files from the gh-pages branch
       - name: Empty site directory
         run: rm -rf *
 
@@ -79,6 +84,11 @@ jobs:
       # Create a .nojekyll file to prevent GitHub from attempting to compile a Jekyll site
       - name: Create .nojekyll file
         run: touch .nojekyll
+
+      # Restore the CNAME file, if it exists
+      - name: Restore CNAME
+        run: '[ -f ${{ runner.temp }}/CNAME ] && cp ${{ runner.temp }}/CNAME ./CNAME'
+
 
       # Commit the changes to the gh-pages branch
       - name: Commit changes
