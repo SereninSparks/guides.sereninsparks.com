@@ -9,7 +9,7 @@ This guide is still somewhat a work-in-progress and will be updated with more in
 
 In the future I will also be adding images as a helping hand (and to break up the long walls of text).
 
-At time of writing, this run takes roughly 15-20 minutes. XP gaoms vary depending on when you log in after the previous run, which herbs and trees you're planting and which herb and trees have grown since then.
+At time of writing, this run takes roughly 15-20 minutes. XP gains vary depending on when you log in after the previous run, which herbs and trees you're planting and which herb and trees have grown since then.
 
 Using this setup and running [Magic Trees](https://rs.wiki/Magic_Tree_(Farming)), [Palm Trees](https://rs.wiki/Palm_tree_(Farming)), [Fellstalk Herbs](https://rs.wiki/Fellstalk_(Farming)) and tending my [Player-Owned Farm](https://rs.wiki/Player-owned_farm) filled with [Chincompas](https://rs.wiki/Chinchompa_(player-owned_farm)), [Zygomites](https://rs.wiki/Zygomite_(player-owned_farm)) and [Dragons](https://rs.wiki/Dragon_(player-owned_farm)), I was able to get upwards of 300,000 XP during this time. With Bonus XP and DXP Live, this will be much, much higher.
 
@@ -91,7 +91,7 @@ When starting out, your inventory should contain:
 
 ## Route
 
-Throughout your route you will grab a single compost of plant cure from the Tool Leprechaun. You can dispose of the empty bucket with them if you want, or drop it. The empty vial should be dropped.
+Throughout your route you will grab a single compost or plant cure from the Tool Leprechaun. You can dispose of the empty bucket with them if you want, or drop it. The empty vial should always be dropped.
 
 Because the aim of this guide is to maximize Farming XP, you'll pay the farmers to clear your Tree Patches whenever possible. Fruit Tree Patches and Herb Patches will be cleared by you every time you can.
 
