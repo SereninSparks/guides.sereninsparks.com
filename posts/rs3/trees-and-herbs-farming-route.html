@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HydePHP - Trees and Herbs Farming Route</title>
+
+
+
+<meta name="description" content="Effective Farming run using Trees, Fruit Trees and Herbs">
+<meta name="twitter:title" content="HydePHP - Trees and Herbs Farming Route">
+<meta name="author" content="SereninSparks">
+<meta name="keywords" content="runescape">
+<meta property="og:description" content="Effective Farming run using Trees, Fruit Trees and Herbs">
+<meta property="og:title" content="HydePHP - Trees and Herbs Farming Route">
+<meta property="og:article:published_time" content="2025-05-21T09:13:00+00:00">
+<meta property="og:type" content="article">
+
+
+<meta name="generator" content="HydePHP v1.8.0">
+<meta property="og:site_name" content="HydePHP">
+
+
+
+
+<style>[x-cloak] {display: none!important}</style>
+
+
+    <link rel="stylesheet" href="../../media/app.css?v=0f957fe87d7d37785767228ccb56882c">
+
+
+
+
+
+    
+    <meta id="meta-color-scheme" name="color-scheme" content="light">
+    <script>if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) { document.documentElement.classList.add('dark'); document.getElementById('meta-color-scheme').setAttribute('content', 'dark');} else { document.documentElement.classList.remove('dark') } </script>
+
+
+
+
+<meta name="robots" content="noindex">
+
+</head>
+<body id="app" class="flex flex-col min-h-screen overflow-x-hidden dark:bg-gray-900 dark:text-white" x-data="{ navigationOpen: false }" x-on:keydown.escape="navigationOpen = false;">
+    <a href="#content" id="skip-to-content" class="sr-only focus:not-sr-only bg-black border-4 border-yellow-400 focus:absolute focus:mt-2 focus:mx-auto focus:p-2 focus:w-64 h-auto left-0 overflow-auto right-0 rounded-md text-center text-lg text-white top-auto z-50 ">Skip to content</a>    <nav aria-label="Main navigation" id="main-navigation" class="flex flex-wrap items-center justify-between p-4 shadow-lg sm:shadow-xl md:shadow-none dark:bg-gray-800">
+    <div class="flex flex-grow items-center flex-shrink-0 text-gray-700 dark:text-gray-200">
+        <a href="../../" class="font-bold px-4" aria-label="Home page">
+    HydePHP
+</a>
+        <div class="ml-auto">
+            <button @click="toggleTheme" class="theme-toggle-button flex items-center px-2 py-1 hover:text-gray-700 dark:text-gray-200" title="Toggle theme">
+        <span class="sr-only">Toggle dark theme</span>
+        <svg width="1.25rem" height="1.25rem" class="w-5 h-5 hidden dark:block" fill="#FFFFFF" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+        <svg width="1.25rem" height="1.25rem" class="w-5 h-5 block dark:hidden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+    </button>
+        </div>
+    </div>
+
+    <div class="block md:hidden">
+        <button id="navigation-toggle-button" class="flex items-center px-3 py-1 hover:text-gray-700 dark:text-gray-200"
+                aria-label="Toggle navigation menu" @click="navigationOpen = ! navigationOpen">
+            <svg id="open-main-navigation-menu-icon" title="Open Navigation Menu" class="dark:fill-gray-200"
+                 xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"
+                 x-show="! navigationOpen" style="display: block;"
+            ><title>Open Menu</title>
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+            <svg id="close-main-navigation-menu-icon" title="Close Navigation Menu" class="dark:fill-gray-200"
+                 xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"
+                 x-show="navigationOpen" style="display: none;"
+            ><title>Close Menu</title>
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+            </svg>
+        </button>
+    </div>
+
+    <div id="main-navigation-links" class="w-full x-uncloak-md md:flex flex-grow md:flex-grow-0 md:items-center md:w-auto px-6 -mx-4 border-t mt-3 pt-3 md:border-none md:mt-0 md:py-0 border-gray-200 dark:border-gray-700"
+         :class="navigationOpen ? '' : 'hidden'" x-cloak>
+        <ul aria-label="Navigation links" class="md:flex-grow md:flex justify-end">
+                            <li class="md:mx-2">
+                                            <a href="../../"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Home</a>                                    </li>
+                            <li class="md:mx-2">
+                                            <a href="https://github.com/SereninSparks/guides.sereninsparks.com"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">GitHub</a>                                    </li>
+                    </ul>
+    </div>
+</nav>
+    <section>
+        
+    <main id="content" class="mx-auto max-w-7xl py-16 px-8">
+        <article aria-label="Article" id="rs3/trees-and-herbs-farming-route" itemscope itemtype="https://schema.org/Article"
+    class="post-article mx-auto prose dark:prose-invert">
+    <meta itemprop="identifier" content="rs3/trees-and-herbs-farming-route">
+    
+    <header aria-label="Header section" role="doc-pageheader">
+        <h1 itemprop="headline" class="mb-4">Trees and Herbs Farming Route</h1>
+        <div id="byline" aria-label="About the post" role="doc-introduction">
+            Posted <time itemprop="dateCreated datePublished" datetime="2025-05-21T09:13:00+00:00" title="Wednesday May 21st, 2025, at 9:13am">May 21st, 2025</time>            by author
+<address itemprop="author" itemscope itemtype="https://schema.org/Person" aria-label="The post author" style="display: inline;">
+                <span itemprop="name" aria-label="The author's name" >SereninSparks</span>
+            </address>            in the category "runescape"        </div>
+    </header>
+        <div aria-label="Article body" itemprop="articleBody">
+        <p>This guide is still somewhat a work-in-progress and will be updated with more information as I learn things, find improvements, receive suggestions, etc.</p>
+<p>In the future I will also be adding images as a helping hand (and to break up the long walls of text).</p>
+<p>At time of writing, this run takes roughly 15-20 minutes. XP gaoms vary depending on when you log in after the previous run, which herbs and trees you're planting and which herb and trees have grown since then.</p>
+<p>Using this setup and running <a href="https://rs.wiki/Magic_Tree_(Farming)">Magic Trees</a>, <a href="https://rs.wiki/Palm_tree_(Farming)">Palm Trees</a>, <a href="https://rs.wiki/Fellstalk_(Farming)">Fellstalk Herbs</a> and tending my <a href="https://rs.wiki/Player-owned_farm">Player-Owned Farm</a> filled with <a href="https://rs.wiki/Chinchompa_(player-owned_farm)">Chincompas</a>, <a href="https://rs.wiki/Zygomite_(player-owned_farm)">Zygomites</a> and <a href="https://rs.wiki/Dragon_(player-owned_farm)">Dragons</a>, I was able to get upwards of 300,000 XP during this time. With Bonus XP and DXP Live, this will be much, much higher.</p>
+<h2>Patches Overview</h2>
+<p>These are the places and patches this guide will be visiting during the route. This table is in alphabetical order and should only be used as a reference.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Herbs</th>
+<th>Trees</th>
+<th>Fruit Tree</th>
+<th>Elder Tree</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Al-Kharid</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ardougne</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Brimhaven</td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>Canafis</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Catherby</td>
+<td>✅</td>
+<td></td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>Falador</td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Fort Forinthry</td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Herblore Habitat</td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>Lletya</td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>Lumbridge</td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Priffdinas</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Taverley</td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Tree Gnome Stronghold</td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>Tree Gnome Village</td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>Trollheim</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Varrock</td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Wilderness</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Requirements</h2>
+<p>These are all the quest and item requirements to fully do this run with some recommendations to make it faster and more rewarding.</p>
+<h3>Items</h3>
+<p>These are all the items you're required to have</p>
+<ul>
+<li>7x Sapling, best for your level</li>
+<li>7x Fruit Sapling, best for your level</li>
+<li>8x Herb Seed, best for your level</li>
+<li><a href="https://rs.wiki/Explorer's_ring_3">Explorer's Ring 3</a> or <a href="https://rs.wiki/Explorer's_ring_4">better</a> for the Cabbage Teleport</li>
+<li>Several Runes for teleportations
+<ul>
+<li>Trollheim: 2 Law, 2 Fire</li>
+<li>Varrock: 1 Law, 1 Fire, 3 Air</li>
+<li>Falador: 1 Law, 1 Water, 3 Air</li>
+<li>Total: <strong>4 Law, 3 Fire, 1 Water, 6 Air</strong></li>
+</ul>
+</li>
+<li>Compost and plant cure stored with the Tool Leprechauns, the best you can have (Supercompost minimum recommended)</li>
+<li>At least 3,400 coins to pay the farmers and buy a <a href="https://rs.wiki/Juju_teleport_spiritbag">Juju Teleport Spiritbag</a> from <a href="https://rs.wiki/Bettamax">Bettamax</a>.</li>
+</ul>
+<h3>Recommended Items</h3>
+<ul>
+<li><a href="https://rs.wiki/Wilderness_sword_1">Wilderness Sword 1</a> or better</li>
+<li><a href="https://rs.wiki/Farming_urn">Farming Urns</a>, best you can make</li>
+<li><a href="https://rs.wiki/Urn_enhancer">Urn Enhancer</a> (requires <a href="https://rs.wiki/Nomad's_Elegy">Nomad's Elegy</a>)</li>
+<li><a href="https://rs.wiki/Farmer's_outfit">Farmer's Outfit</a> or <a href="https://rs.wiki/Master_farmer_outfit">Master Farmer Outfit</a></li>
+</ul>
+<h3>Required Quests</h3>
+<ul>
+<li><a href="https://rs.wiki/Eadgar%27s_Ruse">Eadgar's Ruse</a></li>
+<li><a href="https://rs.wiki/My_Arm's_Big_Adventure">My Arm's Big Adventure</a></li>
+<li><a href="https://rs.wiki/Plague's_End">Plague's End</a></li>
+<li><a href="https://rs.wiki/Unwelcome_Guests">Unwelcome Guests</a></li>
+</ul>
+<h3>Recommended Quests</h3>
+<ul>
+<li><a href="https://rs.wiki/A_Fairy_Tale_II_-_Cure_a_Queen">A Fairy Tale II - Cure a Queen</a> for access to the Fairy Network
+<ul>
+<li><a href="https://rs.wiki/A_Fairy_Tale_III_-_Battle_at_Ork%27s_Rift">A Fairy Tale III - Battle at Ork's Rift</a> to remove the <a href="https://rs.wiki/Dramen_staff">Dramen</a>/<a href="https://rs.wiki/Lunar_staff">Lunar Staff</a> requirement</li>
+</ul>
+</li>
+<li><a href="https://rs.wiki/Nomad's_Elegy">Nomad's Elegy</a> - For the Urn Enhancer</li>
+</ul>
+<h2>Preparation</h2>
+<p>For a single run you'll want to have your saplings ready to go in your bank, the Tool Leprechauns stocked with the best compost you can get or make and some plant cures.</p>
+<p>When starting out, your inventory should contain:</p>
+<ul>
+<li>7x Tree Sapling</li>
+<li>7x Fruit Tree Sapling</li>
+<li>8x Herb Seeds</li>
+<li>Urns</li>
+<li>Urn Enhancer (optional)</li>
+</ul>
+<h2>Route</h2>
+<p>Throughout your route you will grab a single compost of plant cure from the Tool Leprechaun. You can dispose of the empty bucket with them if you want, or drop it. The empty vial should be dropped.</p>
+<p>Because the aim of this guide is to maximize Farming XP, you'll pay the farmers to clear your Tree Patches whenever possible. Fruit Tree Patches and Herb Patches will be cleared by you every time you can.</p>
+<p>Every step of this guide assumes your tree/herb is finished growing. Depending on when you do the run relative to the last one, your tree/herb may not be done yet or even be diseased. If this is the case, prune/cure them if needed and move on.</p>
+<p>Between each patch, you should <a href="https://rs.wiki/Surge">Surge</a>, <a href="https://rs.wiki/Dive">Dive</a>, <a href="https://rs.wiki/Bladed_Dive">Bladed Dive</a>, etc whenever you can. This isn't required, but does speed up your run.</p>
+<p>Every time you're at a patch, you should exchange your bucket for a compost bucket when you're done re-planting your tree/herb. Doing it before re-planting can cause weeds to grow, which slows you down.</p>
+<h3>Starting Off</h3>
+<p>Start the run in Priffdinas. First head north and visit the Fruit Tree Patch, note any produce and head south-east to the Crwys District and check on your Elder Tree Patch. Then head west and check your Herb Patch, note any produce and head south to the Trahaearn District to check the Tree Patch.</p>
+<p>Head north to the bank, grab 2 Fire Runes and 2 Law Runes.</p>
+<h3>Teleport Gallore</h3>
+<p>Teleport to Trollheim and head towards the Troll Stronghold by using the Agility shortcuts. Head inside, go south and through the door, then head up the ladder to where <a href="https://runescape.wiki/w/My_Arm">My Arm</a> is. Visit the Herb Patch there and note any produce you may have.</p>
+<p>Cabbage Teleport and walk north to the Herb Patch, note any produce you got from it.</p>
+<p>Teleport to Lumbridge and head north, check the Tree Patch close to the bank. Head to the bank west of the Tree Patch, drop off any empty pots and grab your Ectophial, 2 Law Runes, 1 Fire Rune, 1 Water Rune and 6 Air Runes.</p>
+<p>Teleport to Falador and head north-east into the park, check your Tree Patch.</p>
+<p>Teleport to Varrock and head north into the castle courtyard, check your Tree Patch.</p>
+<p>Ectophial Teleport and run west, pick your herbs and note them.</p>
+<p>Lodestone Teleport to Catherby and head east to check on your Fruit Tree Patch, noting any produce. Head west and go into the bank to drop off your Ectophial, you don't need it anymore from here. You can also drop off any empty pots here. Head north and check your Herb Patch, noting any produce.</p>
+<p>Lodestone Teleport to Tyrannwn and head north-west to Lletya, be mindful of the leaf and crossbow traps. Check your Fruit Tree Patch and note any produce you got. Bank the empty pot here if you want to.</p>
+<p>Lorestone Teleport to Al-Kharid and head north, check the Herb Patch and note any produce.</p>
+<p>Teleport to the Wilderness using the Wilderness Sword and check the Herb Patch, note any produce. If you don't have the Wilderness Sword, Lodestone Teleport to the Wilderness Lodestone and run north through the crater, make sure you have Auto-Retaliate turned off. Keep running north and you'll find the Herb Patch.</p>
+<p>Lodestone Teleport to Eagle's Peak and head south-east, jump the stile. Head south-east to the Tree Patch and check it. The head north-east to the Fruit Tree Patch, gather and note any produce.</p>
+<p>Lodestone Teleport to Taverley and head north, check the Tree Patch. Then head south and buy a Juju Teleport Spiritbag from Bettamax.</p>
+<h3>Fort Forinthry and Tree Gnome Village</h3>
+<p>Lodestone Teleport to Fort Forinthry. If you have completed <a href="https://rs.wiki/A_Fairy_Tale_III_-_Battle_at_Ork%27s_Rift">A Fairy Tale III - Battle at Ork's Rift</a>, head east into the <a href="https://rs.wiki/Woodcutters'_Grove">Woodcutter's Grove</a>.</p>
+<p>If you haven't completed that quest, but do have access to the Fairy Network, head north and equip your Dramen or Lunar Staff first, then head east.</p>
+<p>Check the Tree Patch there and then take the Fairy Ring to the Tree Gnome Village (Code <strong>CIQ</strong>). Head west, then north and check the Fruit Tree Patch.</p>
+<p>If you don't have access to the Fairy Network, Lodestone Teleport to Yanille instead and head north-west.</p>
+<h3>Karamja</h3>
+<p>Lodestone Teleport to Brimhaven and head north, check the Fruit Tree Patch and note any produce. Use your Juju Teleport Spiritbag and head south to enter the Herblore Habitat. Check the Fruit Tree Patch</p>
+<h3>Finishing Up</h3>
+<p>Teleport to Ardougne and head north-east. Check the Herb Patch, noting any produce. This marks the end of the farming run!</p>
+<p>While you're here, you might want to deposit everything except your Urns - if you have any left - in the deposit box and tend your Player-owned Farm if you have it unlocked for heaps of extra XP and money.</p>
+
+    </div>
+    <span class="sr-only">End of article</span>
+</article>    </main>
+
+    </section>
+
+    <footer aria-label="Page footer" class="flex py-4 px-6 w-full text-center mt-auto bg-slate-100 dark:bg-gray-800">
+        <div class="prose dark:prose-invert text-center mx-auto">
+            <p>Site built with <a href="https://github.com/hydephp/hyde">HydePHP</a> — View site on <a href="https://github.com/SereninSparks/guides.sereninsparks.com">GitHub</a> — Content Licensed under <a href="https://github.com/SereninSparks/guides.sereninsparks.com/blob/main/LICENSE.CC-BY">CC-BY 4.0</a></p>
+
+        </div>
+        <a href="#app" aria-label="Go to top of page" class="float-right">
+            <button title="Scroll to top">
+                <svg width="1.5rem" height="1.5rem" role="presentation" class="fill-current text-gray-500 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" />
+                </svg>
+            </button>
+        </a>
+    </footer>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.3/dist/cdn.min.js" integrity="sha256-gOkV4d9/FmMNEkjOzVlyM2eNAWSUXisT+1RbMTTIgXI=" crossorigin="anonymous"></script>
+
+<script>
+    function toggleTheme() {
+        if (localStorage.getItem('color-theme') === 'dark' || !('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.remove("dark");
+            localStorage.setItem('color-theme', 'light');
+            document.getElementById('meta-color-scheme').setAttribute('content', 'light');
+        } else {
+            document.documentElement.classList.add("dark");
+            localStorage.setItem('color-theme', 'dark');
+            document.getElementById('meta-color-scheme').setAttribute('content', 'dark');
+        }
+    }
+</script>
+
+
+
+
+
+
+</body>
+</html>
