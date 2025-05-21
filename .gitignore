@@ -9,4 +9,7 @@
 
 .env
 
-# /_site
+_site
+
+# Obsidian
+_posts/.obsidian/workspace.json

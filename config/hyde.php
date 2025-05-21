@@ -25,6 +25,7 @@
 use Hyde\Facades\Author;
 use Hyde\Enums\Feature;
 use Hyde\Facades\Meta;
+use Hyde\Framework\Features\Navigation\NavItem;
 
 return [
 
@@ -80,7 +81,7 @@ return [
     |
     */
 
-    'pretty_urls' => false,
+    'pretty_urls' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -216,10 +217,9 @@ return [
     */
 
     'meta' => [
-        // Meta::name('author', 'Mr. Hyde'),
-        // Meta::name('twitter:creator', '@HydeFramework'),
-        // Meta::name('description', 'My Hyde Blog'),
-        // Meta::name('keywords', 'Static Sites, Blogs, Documentation'),
+        Meta::name('author', 'SereninSparks'),
+        Meta::name('description', 'A small guide site for games I play and things I like to do'),
+        Meta::name('keywords', 'Gaming, Guides, Documentation'),
         Meta::name('generator', 'HydePHP v'.Hyde\Hyde::version()),
         Meta::property('site_name', env('SITE_NAME', 'HydePHP')),
     ],
@@ -236,7 +236,8 @@ return [
     */
 
     // Add any extra HTML to include in the <head> tag
-    'head' => '',
+    // Temporarily prevent bots from crawling while I work on this thing
+    'head' => '<meta name="robots" content="noindex">',
 
     // Add any extra HTML to include before the closing <body> tag
     'scripts' => '',
@@ -258,14 +259,14 @@ return [
         Feature::MarkdownPosts,
         Feature::BladePages,
         Feature::MarkdownPages,
-        Feature::DocumentationPages,
+        // Feature::DocumentationPages,
 
         // Frontend Features
         Feature::Darkmode,
         Feature::DocumentationSearch,
 
         // Integrations
-        Feature::Torchlight,
+        // Feature::Torchlight,
     ],
 
     /*
@@ -286,9 +287,8 @@ return [
 
     'authors' => [
         Author::create(
-            'mr_hyde', // Required username
-            'Mr. Hyde', // Optional display name
-            'https://hydephp.com' // Optional website URL
+            'SereninSparks', // Required username
+            'https://bsky.app/profile/sereninsparks.com' // Optional website URL
         ),
     ],
 
@@ -308,7 +308,7 @@ return [
     |
     */
 
-    'footer' => 'Site proudly built with [HydePHP](https://github.com/hydephp/hyde) 🎩',
+    'footer' => 'Site built with [HydePHP](https://github.com/hydephp/hyde) — View site on [GitHub](https://github.com/SereninSparks/guides.sereninsparks.com) — Content Licensed under [CC-BY 4.0](https://github.com/SereninSparks/guides.sereninsparks.com/blob/main/LICENSE.CC-BY)',
 
     /*
     |--------------------------------------------------------------------------
@@ -350,7 +350,7 @@ return [
         // To get started quickly, you can uncomment the defaults here.
         // See the documentation link above for more information.
         'custom' => [
-            // NavItem::forLink('https://github.com/hydephp/hyde', 'GitHub', 200),
+             NavItem::forLink('https://github.com/SereninSparks/guides.sereninsparks.com', 'GitHub', 200),
         ],
 
         // How should pages in subdirectories be displayed in the menu?
