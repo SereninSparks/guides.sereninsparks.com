@@ -102,35 +102,35 @@ Between each patch, you should [Surge](https://rs.wiki/Surge), [Dive](https://rs
 Every time you're at a patch, you should exchange your bucket for a compost bucket when you're done re-planting your tree/herb. Doing it before re-planting can cause weeds to grow, which slows you down.
 ### Starting Off
 
-Start the run in Priffdinas. First head north and visit the Fruit Tree Patch, note any produce and head south-east to the Crwys District and check on your Elder Tree Patch. Then head west and check your Herb Patch, note any produce and head south to the Trahaearn District to check the Tree Patch.
+Start the run in Priffdinas. First head north and visit the Fruit Tree Patch, note any produce and head south-east to the Crwys District and check on your Elder Tree Patch. Then head west and check your Herb Patch, note any produce and head south to the Trahaearn District to check your Tree Patch.
 
 Head north to the bank, grab 2 Fire Runes and 2 Law Runes.
 
 ### Teleport Gallore
 
-Teleport to Trollheim and head towards the Troll Stronghold by using the Agility shortcuts. Head inside, go south and through the door, then head up the ladder to where [My Arm](https://runescape.wiki/w/My_Arm) is. Visit the Herb Patch there and note any produce you may have.
+Lodestone Teleport to Trollheim and head towards the Troll Stronghold by using the Agility shortcuts. Head inside, go south and through the door, then head up the ladder to where [My Arm](https://runescape.wiki/w/My_Arm) is. Check your Herb Patch there and note any produce you may have.
 
 Cabbage Teleport and walk north to the Herb Patch, note any produce you got from it.
 
-Teleport to Lumbridge and head north, check the Tree Patch close to the bank. Head to the bank west of the Tree Patch, drop off any empty pots and grab your Ectophial, 2 Law Runes, 1 Fire Rune, 1 Water Rune and 6 Air Runes.
+Teleport to Lumbridge and head north, check your Tree Patch close to the bank. Head to the bank west of the Tree Patch, drop off any empty pots and grab your Ectophial, 2 Law Runes, 1 Fire Rune, 1 Water Rune and 6 Air Runes.
 
 Teleport to Falador and head north-east into the park, check your Tree Patch.
 
 Teleport to Varrock and head north into the castle courtyard, check your Tree Patch. 
 
-Ectophial Teleport and run west, pick your herbs and note them.
+Ectophial Teleport and run west, check your Herb Patch and note any produce.
 
 Lodestone Teleport to Catherby and head east to check on your Fruit Tree Patch, noting any produce. Head west and go into the bank to drop off your Ectophial, you don't need it anymore from here. You can also drop off any empty pots here. Head north and check your Herb Patch, noting any produce.
 
 Lodestone Teleport to Tyrannwn and head north-west to Lletya, be mindful of the leaf and crossbow traps. Check your Fruit Tree Patch and note any produce you got. Bank the empty pot here if you want to.
 
-Lorestone Teleport to Al-Kharid and head north, check the Herb Patch and note any produce.
+Lorestone Teleport to Al-Kharid and head north, check your Herb Patch and note any produce.
 
-Teleport to the Wilderness using the Wilderness Sword and check the Herb Patch, note any produce. If you don't have the Wilderness Sword, Lodestone Teleport to the Wilderness Lodestone and run north through the crater, make sure you have Auto-Retaliate turned off. Keep running north and you'll find the Herb Patch.
+Teleport to the Wilderness using the Wilderness Sword and check your Herb Patch, note any produce. If you don't have the Wilderness Sword, Lodestone Teleport to the Wilderness Lodestone and run north through the crater, make sure you have Auto-Retaliate turned off. Keep running north and you'll find the Herb Patch.
 
 Lodestone Teleport to Eagle's Peak and head south-east, jump the stile. Head south-east to the Tree Patch and check it. The head north-east to the Fruit Tree Patch, gather and note any produce.
 
-Lodestone Teleport to Taverley and head north, check the Tree Patch. Then head south and buy a Juju Teleport Spiritbag from Bettamax.
+Lodestone Teleport to Taverley and head north, check your Tree Patch. Then head south and buy a Juju Teleport Spiritbag from Bettamax.
 
 ### Fort Forinthry and Tree Gnome Village
 
@@ -138,16 +138,16 @@ Lodestone Teleport to Fort Forinthry. If you have completed [A Fairy Tale III - 
 
 If you haven't completed that quest, but do have access to the Fairy Network, head north and equip your Dramen or Lunar Staff first, then head east.
 
-Check the Tree Patch there and then take the Fairy Ring to the Tree Gnome Village (Code **CIQ**). Head west, then north and check the Fruit Tree Patch.
+Check your Tree Patch there and then take the Fairy Ring to the Tree Gnome Village (Code **CIQ**). Head west, then north and check your Fruit Tree Patch.
 
 If you don't have access to the Fairy Network, Lodestone Teleport to Yanille instead and head north-west.
 
 ### Karamja
 
-Lodestone Teleport to Brimhaven and head north, check the Fruit Tree Patch and note any produce. Use your Juju Teleport Spiritbag and head south to enter the Herblore Habitat. Check the Fruit Tree Patch
+Lodestone Teleport to Brimhaven and head north, check your Fruit Tree Patch and note any produce. Use your Juju Teleport Spiritbag and head south to enter the Herblore Habitat. Check your Fruit Tree Patch.
 
 ### Finishing Up
 
-Teleport to Ardougne and head north-east. Check the Herb Patch, noting any produce. This marks the end of the farming run!
+Teleport to Ardougne and head north-east. Check your Herb Patch, noting any produce. This marks the end of the farming run!
 
 While you're here, you might want to deposit everything except your Urns - if you have any left - in the deposit box and tend your Player-owned Farm if you have it unlocked for heaps of extra XP and money.
