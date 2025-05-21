@@ -37,6 +37,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-php-
 
+      # Ensure the .env file exists
+      - name: Prepare .env file
+        run: cat .env.example | sed 's/\# SITE_URL/SITE_URL/' > .env
+
       # Install the Composer packages
       - name: Install dependencies
         run: composer install --prefer-dist --no-progress
