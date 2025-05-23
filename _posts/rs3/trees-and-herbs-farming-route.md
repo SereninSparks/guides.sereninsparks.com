@@ -133,7 +133,7 @@ Lodestone Teleport to **Catherby** and head east to check on your Fruit Tree Pat
 
 Lodestone Teleport to **Tyrannwn** and head north-west to **Lletya**, be mindful of the leaf trap and run or surge through the crossbow trap. You can step over the trap to avoid the damage, but it's faster to just tank it. Check your Fruit Tree Patch and note any produce.
 
-Lodestone Teleport to **Al-Kharid* and head north, check your Herb Patch and note any produce.
+Lodestone Teleport to **Al-Kharid** and head north, check your Herb Patch and note any produce.
 
 Teleport to the **Wilderness** using the **Wilderness Sword** and check your Herb Patch, note any produce. If you don't have the Wilderness Sword, Lodestone Teleport to the Wilderness Lodestone instead and run north through the crater, make sure you have Auto-Retaliate turned off. Keep running north and you'll find the Herb Patch.
 
