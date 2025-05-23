@@ -135,7 +135,7 @@ Lodestone Teleport to **Tyrannwn** and head north-west to **Lletya**, be mindful
 
 Lodestone Teleport to **Al-Kharid** and head north, check your Herb Patch and note any produce.
 
-Teleport to the **Wilderness** using the **Wilderness Sword** and check your Herb Patch, note any produce. If you don't have the Wilderness Sword, Lodestone Teleport to the Wilderness Lodestone instead and run north through the crater, make sure you have Auto-Retaliate turned off. Keep running north and you'll find the Herb Patch.
+Teleport to the **Wilderness** using the **Wilderness Sword** and check your Herb Patch, note any produce. If you don't have the Wilderness Sword, Lodestone Teleport to the Wilderness instead and run north through the crater, make sure you have Auto-Retaliate turned off. Keep running north and you'll find the Herb Patch.
 
 Lodestone Teleport to **Eagle's Peak** and head south-east, jump the stile. Head south-east to the Tree Patch and check it. The head north-east to the Fruit Tree Patch, gather and note any produce.
 
