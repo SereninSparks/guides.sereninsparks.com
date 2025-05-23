@@ -62,6 +62,7 @@ These are all the items you're required to have
 - [Wilderness Sword 1](https://rs.wiki/Wilderness_sword_1) or better
 - [Farming Urns](https://rs.wiki/Farming_urn), best you can make
 - [Urn Enhancer](https://rs.wiki/Urn_enhancer) (requires [Nomad's Elegy](https://rs.wiki/Nomad's_Elegy))
+- [Ectophial](https://rs.wiki/Ectophial) (requires [Ghosts Ahoy](https://rs.wiki/Ghosts_Ahoy))
 - [Farmer's Outfit](https://rs.wiki/Farmer's_outfit) or [Master Farmer Outfit](https://rs.wiki/Master_farmer_outfit)
 
 ### Required Quests
@@ -69,6 +70,7 @@ These are all the items you're required to have
 - [Eadgar's Ruse](https://rs.wiki/Eadgar%27s_Ruse)
 - [My Arm's Big Adventure](https://rs.wiki/My_Arm's_Big_Adventure) 
 - [Plague's End](https://rs.wiki/Plague's_End)
+- [Priest in Peril](https://rs.wiki/Priest_in_Peril)
 - [Unwelcome Guests](https://rs.wiki/Unwelcome_Guests)
 
 ### Recommended Quests
@@ -117,17 +119,17 @@ Cabbage Teleport and head north to the Herb Patch, note any produce you got from
 
 Teleport to **Lumbridge** and head north, check your Tree Patch close to the bank. Head to the bank west of the Tree Patch, drop off any empty pots and grab the following:
 
-- Ectophial
 - 2 Law Runes
 - 1 Fire Rune
 - 1 Water Rune
 - 6 Air Runes
+- Ectophial (if you completed [https://rs.wiki/Priest_in_Peril])
 
 Teleport to **Falador** and head north-east into the park, check your Tree Patch.
 
 Teleport to **Varrock** and head north into the castle courtyard, check your Tree Patch. 
 
-Ectophial Teleport and head west, check your Herb Patch and note any produce.
+Ectophial Teleport and head west, check your Herb Patch and note any produce. If you don't have the Ectophial, Lodestone Teleport to **Canifis** instead and head east.
 
 Lodestone Teleport to **Catherby** and head east to check on your Fruit Tree Patch, noting any produce. Head west and go into the bank to drop off your Ectophial, you don't need it anymore from here. You can also drop off any empty pots here. Head north and check your Herb Patch, noting any produce.
 
